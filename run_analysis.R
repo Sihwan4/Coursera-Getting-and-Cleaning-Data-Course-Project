@@ -61,5 +61,5 @@ colnames(total) <- c("subject","activity",ftrs0)
  #load dplyr, to use function "group_by" and "summrise_all"
 library(dplyr)
 tidy2 <- group_by(total,subject,activity)
-tidy2 <- summarise_all(tidy2,funs(mean))
+tidy2 <- summarise_all(tidy2,mean)
 write.table(tidy2,"Tidy.txt", row.names=F)
