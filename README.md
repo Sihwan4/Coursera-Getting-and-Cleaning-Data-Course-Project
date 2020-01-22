@@ -36,6 +36,6 @@ Coursera-Getting-and-Cleaning-Data-Course-Project
 # Step 5. Get means per (subject/activity), and write tidy data
     # Load library 'dplyr', and use function 'group_by()' and 'summrise_all()'
 
-As a result, 
- "Tidy.TXT" contains variables whose name contain "Standard deviation" or "Mean"
-The columns of "Tidy.TXT" are subject, activity, and mean of variables.
+# As a result, 
+    # "Tidy.TXT" contains variables whose name contain "Standard deviation" or "Mean"
+    # The columns of "Tidy.TXT" are subject, activity, and mean of variables.
