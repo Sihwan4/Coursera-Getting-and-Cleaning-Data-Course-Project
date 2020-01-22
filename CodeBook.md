@@ -1,8 +1,15 @@
-#get the url of file sets (t0) and download it
-t0<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download.file(t0,"UCI_HAR_Dataset.zip")
+# Coursera-Getting-and-Cleaning-Data-Course-Project
+This codebook explains variables, codes in run_analysis.R
++ X_train.txt contains data of triaxial accelration, angular velocity, time, frequency domain variables, 
++ Subjects  are 1 ~ 30
++ Activity labels 1~6 mean Walking ~ laying
 
-# unzip the file  and set work directory
+
+> This code download zip file
+          t0<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+           download.file(t0,"UCI_HAR_Dataset.zip")
+
+> unzip the file  and set work directory
 unzip("UCI_HAR_Dataset.zip")
 setwd("./UCI HAR Dataset")
 
