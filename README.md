@@ -20,7 +20,7 @@ This repository contains the project in 'Getting and Cleaning Data' course in 'c
 ### We will set "UCI HAR Dataset" as a new working directory
 
 
-# This script continues to analyze data of the test sets and train sets,
+## This script continues to analyze data of the test sets and train sets,
  as next 5 steps:
 
 
