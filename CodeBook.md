@@ -44,7 +44,7 @@
 
 >st<-read.table("./test/subject_test.txt",stringsAsFactors = F)
 
-# Read, select, merge each data in the train sets, as done in the test sets
+### Read, select, merge each data in the train sets, as done in the test sets
 
 >X_tr <- read.table("./train/X_train.txt",stringsAsFactors = F)
 
