@@ -34,7 +34,7 @@
 
 >colnames(X_test) <- ftrs
 
-### get y_test to get activity labels
+### Get y_test to get activity labels
 
 >y_test<- read.table("./test/y_test.txt",stringsAsFactors = F)
 
@@ -44,7 +44,7 @@
 
 >st<-read.table("./test/subject_test.txt",stringsAsFactors = F)
 
-### Read, select, merge each data in the train sets, as done in the test sets
+### Read each text files in the train sets, as done in the test sets
 
 >X_tr <- read.table("./train/X_train.txt",stringsAsFactors = F)
 
