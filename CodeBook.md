@@ -57,27 +57,34 @@
 >str<-read.table("./train/subject_train.txt",stringsAsFactors = F)
 
 
-# Step 1.
-* merge the test/train files,
- +  and then combine "test_total1" and "train_total1" to "total", using function "rbind"
+# Step 1. Merge the test/train files,
+ 
+ * and then combine "test_total1" and "train_total1" to "total", using function "rbind"
+ 
 >test_total1 <- cbind(X_test,subject = st[,1],activity = y_test[,1])
+
 >train_total1 <- cbind(X_tr,subject = str[,1],activity = y_tr[,1])
+
 >total <- rbind(test_total1, train_total1)
 
-# Step 2.
-* Select "mean" and "std", and save it to 'selected_features',
+# Step 2. Select "mean" and "std"
+ *  and save it to 'selected_features',
+ 
   +  so ftrs0 reflects selected features,
+  
   + and columns in total will be selected using 'subject', 'activity', and ftrs0
+  
 >selected_features<- grep("mean|std",ftrs)
+
 >ftrs0 <- ftrs[selected_features]
+
 >total<-total[,c("subject","activity",ftrs0)]
 
-# Step 3.
-* Change activity label
+# Step 3. Change activity label
+
 >total$activity <- activity_labels[total$activity,2]
 
-# Step 4.
-* Adjust variable names.
+# Step 4. Adjust variable names.
 
 >ftrs0<-gsub("-","_",ftrs0)
 
@@ -105,9 +112,10 @@
 
 >colnames(total) <- c("subject","activity",ftrs0)
 
-# Step 5.
-* get means per (subject/activity) and write tidy data
-* load dplyr, to use function "group_by" and "summrise_all"
+# Step 5. get means per subject per activity
+* Load dplyr, to use function "group_by" and "summrise_all"
+* Write tidy data
+
 
 >library(dplyr)
 
