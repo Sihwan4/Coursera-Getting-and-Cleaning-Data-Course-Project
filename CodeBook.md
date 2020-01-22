@@ -69,10 +69,8 @@
 
 # Step 2. Select "mean" and "std"
  *  and save it to 'selected_features',
- 
-  +  so ftrs0 reflects selected features,
-  
-  + and columns in total will be selected using 'subject', 'activity', and ftrs0
+    +  so ftrs0 reflects selected features,
+    + and columns in total will be selected using 'subject', 'activity', and ftrs0
   
 >selected_features<- grep("mean|std",ftrs)
 
