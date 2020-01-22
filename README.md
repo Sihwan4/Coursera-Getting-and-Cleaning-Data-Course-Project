@@ -1,5 +1,10 @@
 # Coursera-Getting-and-Cleaning-Data-Course-Project
 Coursera-Getting-and-Cleaning-Data-Course-Project
+### "run_analysis.R" download UCI HAR dataset,
+### get average of variables from test and train sets per subject and activity,
+### and make file "Tidy.txt" in "UCI HAR Dataset" directory
+
+### CodeBook.md contains code, explains variables
 
 ### You may access the original data and description here:
    "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
