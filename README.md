@@ -1,7 +1,7 @@
 # Coursera-Getting-and-Cleaning-Data-Course-Project
 Coursera-Getting-and-Cleaning-Data-Course-Project
 
-## You may access the original data and description here:
+### You may access the original data and description here:
    "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
 # When you run the script 'run_analysis.R',
@@ -11,7 +11,7 @@ Coursera-Getting-and-Cleaning-Data-Course-Project
   and then unzip the file,
   so "UCI HAR Dataset" directory will appear in your work directory.
 
-## We will set "UCI HAR Dataset" as a new working directory
+### We will set "UCI HAR Dataset" as a new working directory
 
 
 # This script continues to analyze data of the test sets and train sets,
