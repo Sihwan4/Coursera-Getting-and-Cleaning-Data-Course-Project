@@ -11,11 +11,11 @@ This codebook explains variables, codes in run_analysis.R
 > download.file(t0,"UCI_HAR_Dataset.zip")
 + This code download zip file
 
-> unzip the file  and set work directory
-unzip("UCI_HAR_Dataset.zip")
-setwd("./UCI HAR Dataset")
+> unzip("UCI_HAR_Dataset.zip")
+> setwd("./UCI HAR Dataset")
++ unzip the file  and set work directory
 
-## In the beginning, read the text files
+## In the beginning, we read the text files
 #Read activity labels
 activity_labels <- read.table("activity_labels.txt",sep=" ",stringsAsFactors = F)
 #Read features
