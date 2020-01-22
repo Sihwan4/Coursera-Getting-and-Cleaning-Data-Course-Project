@@ -1,9 +1,9 @@
 # Coursera-Getting-and-Cleaning-Data-Course-Project
-This repository contains project in 'Getting and Cleaning Data' course in 'coursera.org'
+This repository contains the project in 'Getting and Cleaning Data' course in 'coursera.org'
 
 > "run_analysis.R" download UCI HAR dataset,
-* get average of variables from test and train sets per subject and activity,
-* and make file "Tidy.txt" in "UCI HAR Dataset" directory
+  + get average of variables from test and train sets per subject and activity,
+  + and make file "Tidy.txt" in "UCI HAR Dataset" directory
 
 > CodeBook.md contains code, explains variables
 
