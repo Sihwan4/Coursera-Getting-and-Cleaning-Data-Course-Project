@@ -5,9 +5,9 @@ This repository contains project in 'Getting and Cleaning Data' course in 'cours
 * get average of variables from test and train sets per subject and activity,
 * and make file "Tidy.txt" in "UCI HAR Dataset" directory
 
-### CodeBook.md contains code, explains variables
+> CodeBook.md contains code, explains variables
 
-### You may access the original data and description here:
+> You may access the original data and description here:
    "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
 # When you run the script 'run_analysis.R',
