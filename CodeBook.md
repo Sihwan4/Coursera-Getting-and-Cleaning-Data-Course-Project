@@ -1,19 +1,21 @@
 # Coursera-Getting-and-Cleaning-Data-Course-Project
-This codebook explains variables, codes in run_analysis.R
+* This codebook explains variables, codes in run_analysis.R
 + X_train.txt and X_test contains data of triaxial accelration, angular velocity, time, frequency domain variables
 +  In features.txt, 1~561 reflects 561 variables
 + Subjects  are 1 ~ 30
 + Activity labels 1~6 mean Walking ~ laying
 
 
+### The next code download zip file
 
 > t0<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 > download.file(t0,"UCI_HAR_Dataset.zip")
-+ This code download zip file
+
+* The next code unzip the file  and set work directory
 
 > unzip("UCI_HAR_Dataset.zip")
 > setwd("./UCI HAR Dataset")
-+ unzip the file  and set work directory
+
 
 # In the beginning, we read the text files
 ### Read activity labels
