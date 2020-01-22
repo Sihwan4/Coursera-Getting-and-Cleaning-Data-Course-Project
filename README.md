@@ -21,7 +21,7 @@ This repository contains the project in 'Getting and Cleaning Data' course in 'c
 
 
 ## This script continues to analyze data of the test sets and train sets,
- as next 5 steps:
+     as next 5 steps:
 
 
 ## Step 1. Read text files 
