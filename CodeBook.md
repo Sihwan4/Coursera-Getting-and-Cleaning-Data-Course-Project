@@ -1,7 +1,7 @@
 # Coursera-Getting-and-Cleaning-Data-Course-Project
 * This codebook explains variables, codes in run_analysis.R
-+ X_train.txt and X_test contains data of triaxial accelration, angular velocity, time, frequency domain variables
-+  In features.txt, 1~561 reflects 561 variables
++ X_train.txt and X_test contains data of triaxial accelration, angular velocity, time, frequency domain variables, which are measrued as normalized standard deviation units [-1,1]
++  In features.txt, 1~561 reflects 561 variables, 
 + Subjects  are 1 ~ 30
 + Activity labels 1~6 mean Walking ~ laying
 
