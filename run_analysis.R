@@ -9,6 +9,7 @@
 ## In the beginning, read the text files
 #Read activity labels
 activity_labels <- read.table("activity_labels.txt",sep=" ",stringsAsFactors = F)
+activity_labels[,2]<-factor(activity_labels[,2],levels=activity_labels[,2])
 #Read features
 ftrs <- read.table("features.txt",sep=" ", stringsAsFactors = F)
 ftrs <- as.character(ftrs[,2])
