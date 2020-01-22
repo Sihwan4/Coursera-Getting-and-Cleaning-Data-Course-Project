@@ -14,7 +14,8 @@ Coursera-Getting-and-Cleaning-Data-Course-Project
 # We will set "UCI HAR Dataset" as a new working directory
 
 
-# This script continues to analyze data of the test sets and train sets, as next 5 steps:
+# This script continues to analyze data of the test sets and train sets,
+ as next 5 steps:
 
 
 # Step 1. Read text files 
