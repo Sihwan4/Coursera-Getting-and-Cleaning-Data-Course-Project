@@ -11,11 +11,11 @@ This repository contains the project in 'Getting and Cleaning Data' course in 'c
    "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
 
 # When you run the script 'run_analysis.R',
-  in the beginning, you will download data
-   "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  as "UCI_HAR_Dataset.zip" file in the work directory,
-  and then unzip the file,
-  so "UCI HAR Dataset" directory will appear in your work directory.
+    # in the beginning, you will download data
+    # "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+    # as "UCI_HAR_Dataset.zip" file in the work directory,
+    # and then unzip the file,
+    # so "UCI HAR Dataset" directory will appear in your work directory.
 
 ### We will set "UCI HAR Dataset" as a new working directory
 
