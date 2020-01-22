@@ -6,8 +6,8 @@ This codebook explains variables, codes in run_analysis.R
 
 
 > This code download zip file
-          t0<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-           download.file(t0,"UCI_HAR_Dataset.zip")
+          # t0<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+          #  download.file(t0,"UCI_HAR_Dataset.zip")
 
 > unzip the file  and set work directory
 unzip("UCI_HAR_Dataset.zip")
