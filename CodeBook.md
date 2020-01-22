@@ -124,3 +124,7 @@
 >tidy2 <- summarise_all(tidy2,funs(mean))
 
 >write.table(tidy2,"Tidy.txt", row.names=F)
+
+
+# As a result
+* You get "Tidy.txt" file in "UCI HRA Dataset" directory
